@@ -1,0 +1,64 @@
+/* Universal Styles  */
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 100%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 3em;
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+img {
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+/* Classes */
+.container {
+  margin: 2em auto;
+  max-width: 90%;
+}
+
+.search {
+  height: 6rem;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 920px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* .lb-details .lb-number {
+  display: none;
+} */
