@@ -5,6 +5,9 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+body {
+  background: grey;
+}
 input {
   max-width: 920px;
   margin: 0 auto;
