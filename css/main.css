@@ -79,3 +79,7 @@ img {
 .lb-nav a.lb-next {
   opacity: 1;
 }
+
+.lb-nav a.lb-next {
+  width: 60%;
+}
