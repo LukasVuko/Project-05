@@ -3,21 +3,14 @@ const $links = $("a"); // Links to all <a> selectors which contain the class 'da
 
 //PROGRAM
 
-$("form").on("keyup", () => {
+$("input").on("keyup", () => {
   const $inputVal = $input.val();
+  for (let i = 0; i < $links.length; i += 1) {
+    var $caption = $links[i].attr("data-title");
+    if ($caption.toUpperCase().indexOf($inputVal.toLowerCase()) != -1) {
+      $links[i].style.display = "block";
+    } else {
+      $links[i].style.display = "none";
+    }
+  }
 });
-
-for (let i = 0; i < $links.length; i += 1) {
-  const $caption = $links[i].attr(".data-title");
-  console.log($caption);
-}
-
-// for (let i = 0; i < $links.length; i += 1) {
-//     const $caption = $links[i].getAttribute(".data-title");
-//     console.log($caption);
-//   }
-
-// $("a").each(function(index, link) {
-//   const $url = $(link).attr("data-title");
-//   console.log($url);
-// });
