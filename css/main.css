@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 input {
@@ -57,4 +58,24 @@ img {
   max-width: 920px;
   margin: 0 auto;
   justify-content: center;
+}
+
+.lb-dataContainer {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20x;
+  max-width: 600px;
+}
+
+.lb-dataContainer .lb-caption {
+  font-size: 20px;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  opacity: 1;
 }
