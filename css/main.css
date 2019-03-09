@@ -86,3 +86,15 @@ img {
 .lb-nav a.lb-next {
   width: 60%;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2em auto;
+    max-width: 97%;
+  }
+  input[type="text"] {
+    width: 90%;
+  }
+}
